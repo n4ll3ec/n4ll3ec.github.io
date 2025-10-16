@@ -4,7 +4,7 @@
 	"sourceRoot": "/Users/shad0wbr4ak/Sites/Blog",
 	"sources": [
 		"assets/css/style.scss",
-		"assets/lib/modern-normalize/modern-normalize.css",
+		"themes/LoveIt/assets/lib/modern-normalize/modern-normalize.css",
 		"assets/css/_variables.scss",
 		"assets/css/_override.scss",
 		"assets/css/_core/_variables.scss",

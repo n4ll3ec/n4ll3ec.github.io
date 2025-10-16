@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>C2 - 标签 - n4ll3ec's Blog</title><link>http://localhost:1313/tags/c2/</link><description>C2 - 标签 - n4ll3ec's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>n4ll3ec@gmail.com (n4ll3ec)</managingEditor><webMaster>n4ll3ec@gmail.com (n4ll3ec)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 21:57:40 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/c2/" rel="self" type="application/rss+xml"/><item><title>内存扫描Bypass</title><link>http://localhost:1313/posts/%E5%86%85%E5%AD%98%E6%89%AB%E6%8F%8Fbypass/</link><pubDate>Thu, 01 Oct 2020 21:57:40 +0800</pubDate><author>n4ll3ec@gmail.com (n4ll3ec)</author><guid>http://localhost:1313/posts/%E5%86%85%E5%AD%98%E6%89%AB%E6%8F%8Fbypass/</guid><description><![CDATA[<h1 id="概述">概述</h1>
-<p>内存免杀Demo. Just a demo.</p>
+<p>内存免杀Demo.</p>
 <h1 id="动态">动态</h1>
-<p>补一个动态</p>
-<p></p>
-<h1 id="bypass内存扫描">Bypass内存扫描</h1>
+<p>动态Bypass
+</p>
+<h1 id="内存扫描bypass">内存扫描Bypass</h1>
 <p>Demo仅演示Bypass常用内存扫描工具，进程注入等风险Bypass这里未作演示。</p>
 <p>针对的内存扫描工具：</p>]]></description></item></channel></rss>
