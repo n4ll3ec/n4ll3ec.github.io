@@ -1,13 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>免杀 - 标签 - n4ll3ec's Blog</title><link>http://localhost:1313/tags/evasion/</link><description>免杀 - 标签 - n4ll3ec's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>n4ll3ec@gmail.com (n4ll3ec)</managingEditor><webMaster>n4ll3ec@gmail.com (n4ll3ec)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 06 Nov 2025 17:10:40 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/evasion/" rel="self" type="application/rss+xml"/><item><title>杀软免杀大横评</title><link>http://localhost:1313/posts/%E6%9D%80%E8%BD%AF%E5%85%8D%E6%9D%80%E5%A4%A7%E6%A8%AA%E8%AF%84/</link><pubDate>Thu, 06 Nov 2025 17:10:40 +0800</pubDate><author>n4ll3ec@gmail.com (n4ll3ec)</author><guid>http://localhost:1313/posts/%E6%9D%80%E8%BD%AF%E5%85%8D%E6%9D%80%E5%A4%A7%E6%A8%AA%E8%AF%84/</guid><description><![CDATA[<h1 id="一杀软查杀原理">一、杀软查杀原理</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>免杀 - 标签 - n4ll3ec's Blog</title><link>http://localhost:1313/tags/evasion/</link><description>免杀 - 标签 - n4ll3ec's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>n4ll3ec@gmail.com (n4ll3ec)</managingEditor><webMaster>n4ll3ec@gmail.com (n4ll3ec)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 06 Nov 2025 17:10:40 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/evasion/" rel="self" type="application/rss+xml"/><item><title>杀软免杀大横评</title><link>http://localhost:1313/posts/%E6%9D%80%E8%BD%AF%E5%85%8D%E6%9D%80%E5%A4%A7%E6%A8%AA%E8%AF%84/</link><pubDate>Thu, 06 Nov 2025 17:10:40 +0800</pubDate><author>n4ll3ec@gmail.com (n4ll3ec)</author><guid>http://localhost:1313/posts/%E6%9D%80%E8%BD%AF%E5%85%8D%E6%9D%80%E5%A4%A7%E6%A8%AA%E8%AF%84/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/attachments/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><h1 id="一杀软查杀原理">一、杀软查杀原理</h1>
 <hr>
 <p>杀毒软件常用的一些查杀原理。</p>
-<h4 id="静态特征查杀">静态特征查杀</h4>
+<h2 id="静态特征查杀">静态特征查杀</h2>
 <ol>
 <li>最基础的，通过已知恶意软件文件Hash进行查杀</li>
 <li>通过文件中存在的字符串或特征字节序列进行查杀，类似于Yara这种.比第一种方式灵活一些，因为文件Hash修改1字节就会导致文件Hash的改变</li>
 <li>其他一些静态特征，比如文件的熵、签名等信息</li>
 </ol>
-<h4 id="启发式查杀">启发式查杀</h4>
+<h2 id="启发式查杀">启发式查杀</h2>
 <ol>
 <li>通过程序的导入表进行分析使用的API，基于恶意软件常用的代码模式进行查杀。比如典型的<code>分配内存+修改内存页保护+执行</code>等。</li>
 </ol>
